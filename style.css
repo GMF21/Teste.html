@@ -1,0 +1,90 @@
+#main{
+    display: inline-block;
+    width: 100%;
+}
+
+.col2{
+    width: 69%;
+    display: inline-block;
+}
+
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#Procurar{
+    display: inline-block;
+    width: 29%;
+
+    
+
+}
+
+input{
+    position: relative;
+    left: 53%;
+    height: 4%;
+    border-radius: 10px;
+    
+}
+
+
+.header{
+    border-bottom: black 1px solid;
+
+}
+
+.col{
+    display: inline-block;
+    width: 30%;
+}
+
+ul li{
+    
+    display: block;
+    height: 5%;
+
+    padding: 5px;
+    margin-top: auto;
+    position: relative;
+    margin-bottom: 50px;
+    width: 30%;
+    
+}
+    
+
+
+li{
+    display: inline-block;
+    border: rgb(121, 91, 47) 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    
+
+
+}
+
+a{
+    color: white;
+}
+
+.GT3{
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 80%;
+}
+h2{
+    position: relative;
+    left: 80%;
+}
+
+p{
+    position: relative;
+    left: 80%;
+    
+}
