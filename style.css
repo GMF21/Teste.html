@@ -1,90 +1,193 @@
 #main{
     display: inline-block;
     width: 100%;
+
 }
+
+
+.col1{
+    width: 29%;
+    display: inline-block;
+}
+
 
 .col2{
     width: 69%;
     display: inline-block;
 }
 
+.header{
 
-img{
     display: inline-block;
-    vertical-align: middle;
-}
+    width: 100%;
 
+
+}
 
 #Procurar{
-    display: inline-block;
-    width: 29%;
-
-    
+   display: inline-block;
+    background-size: cover;
+    width: 23px;
+    border: transparent;
+    background-color: rgb(121, 91, 47);
+    border-radius: 15px;
+    height: 2%;
 
 }
+
+#Procurar:hover{
+
+    background-color: rgb(197, 105, 44);
+}
+
+
+#search{
+    width: 700px;
+    height: 4%;
+    border-radius: 15px;
+}
+
+#search:hover{
+    border: red;
+}
+
 
 input{
     position: relative;
-    left: 53%;
-    height: 4%;
-    border-radius: 10px;
+    left: 23%;
+    vertical-align: middle;
+    margin-bottom: 102px;
     
 }
 
 
-.header{
-    border-bottom: black 1px solid;
+.log{
+    display: inline-block;
+    border: black 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    left: 40%;
+    width: 100px;
+    margin-bottom: 102px;
+    vertical-align: middle;
+    color: black;
+    font-weight: bold;
+    height: 4%;
+    text-align: center;
+    
+}
+
+
+.log:hover{
+    background-color: rgb(121, 91, 47);
 
 }
 
-.col{
+ul{
+    width: 100%;
     display: inline-block;
-    width: 30%;
 }
 
 ul li{
+    border: rgb(121, 91, 47) 1px solid;
+    border-radius: 10px;
+    width: 23%;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    height: 3%;
+   
+}
+
+ul li a{
+    color: white;
+}
+
+ul li:hover{
+    height: 170px;
+    background-image: url(https://images-porsche.imgix.net/-/media/AFF23E8A22CC4732923A8EFCAB045D8F_2E46A6291FC146EB9442F00B7176BD13_001-hero-13-5-intro?w=999&q=85&auto=format);
+    background-size: cover;
+    transition: 10ms;
     
+    
+}
+
+
+
+.SUB li{
+
     display: block;
     height: 5%;
-
+    width: 100%;
     padding: 5px;
     margin-top: auto;
     position: relative;
     margin-bottom: 50px;
-    width: 30%;
-    
-}
-    
-
-
-li{
-    display: inline-block;
-    border: rgb(121, 91, 47) 1px solid;
-    border-radius: 10px;
-    background-color: black;
-    text-align: center;
-    
-
-
-}
-
-a{
-    color: white;
 }
 
 .GT3{
-    width: 40%;
-    display: inline-block;
     position: relative;
-    left: 80%;
-}
-h2{
-    position: relative;
-    left: 80%;
+    left: 25%;
+    width: 50%;
+    border-radius: 25px;
+    padding: auto;
+    margin-top: 100px;
+    
+
 }
 
 p{
     position: relative;
-    left: 80%;
+    left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+.porsche1{
+    position: relative;
+    left: 35%;
+    margin-top: 100px;
+}
+
+
+.bottom{
+    width: 100%;
+    background-color: black;
+    margin: 0% auto;
+    color: white;
     
+    
+}
+
+.bottom p{
+    width: 50%;
+    margin: 20px;
+    position: relative;
+    left: 3%;
+    top: 3%;
+    
+    
+}
+
+.link{
+    position: relative;
+    left: 28%;
+    margin-left: 200px;
+}
+
+.COPYRIGHT{
+    padding-top: 20px;
+}
+
+.porsche2{
+    position: relative;
+    left: 2%;
+
+}
+
+h2{
+    position: relative;
+    left: 25%;
 }
